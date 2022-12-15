@@ -5,7 +5,8 @@
  * _putchar - writes the character c to stdout
  * @c: the character to print
  *
- * Return: On success
+ * Return: On success 1.
+ * on errot, -1 is returned. and error is set appropriately.
  */
 int _putchar(char c)
 {
